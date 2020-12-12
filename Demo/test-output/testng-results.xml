@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-12T17:17:45 EST" name="Default suite" finished-at="2020-12-12T17:17:54 EST" duration-ms="8766">
+    <groups>
+    </groups>
+    <test started-at="2020-12-12T17:17:45 EST" name="Default test" finished-at="2020-12-12T17:17:54 EST" duration-ms="8766">
+      <class name="tests.NewTest">
+        <test-method is-config="true" signature="setupTests()[pri:0, instance:tests.NewTest@5f683daf]" started-at="2020-12-12T17:17:45 EST" name="setupTests" finished-at="2020-12-12T17:17:51 EST" duration-ms="5839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTests -->
+        <test-method signature="sampleTest(java.lang.String, java.lang.String)[pri:0, instance:tests.NewTest@5f683daf]" started-at="2020-12-12T17:17:51 EST" name="sampleTest" data-provider="LoginCredentials" finished-at="2020-12-12T17:17:53 EST" duration-ms="2228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr299483]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[suqUpej]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="teardownTests()[pri:0, instance:tests.NewTest@5f683daf]" started-at="2020-12-12T17:17:53 EST" name="teardownTests" finished-at="2020-12-12T17:17:54 EST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTests -->
+      </class> <!-- tests.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
