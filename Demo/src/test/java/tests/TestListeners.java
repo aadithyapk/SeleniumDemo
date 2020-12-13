@@ -1,16 +1,23 @@
 package tests;
 
+import java.io.IOException;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import global.Allure;
 import global.Log;
 
 public class TestListeners implements ITestListener {
 	
 	@Override		
     public void onFinish(ITestContext Result) {
-		
+		try {
+			Allure.allureServe();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
     		
     @Override		

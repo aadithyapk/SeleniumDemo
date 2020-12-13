@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import io.qameta.allure.Step;
 
 public class HomePage {
 	
@@ -29,11 +30,13 @@ public class HomePage {
 		driver.findElement(btnLogin).click();
 	}
 	
+	@Step("Launch Guru99 homepage and assert page title")
 	public void LaunchHomePage() {
 		driver.get("http://demo.guru99.com/v4/");
 		Assert.assertEquals(driver.getTitle().trim(),strHomePageTitle);
 	}
 	
+	@Step("Login to home page using username - {strUserName} and password - {strPassword}")
 	public void LoginToHome(String strUserName, String strPassword) {
 		this.setUserName(strUserName);
 		this.setPassword(strPassword);

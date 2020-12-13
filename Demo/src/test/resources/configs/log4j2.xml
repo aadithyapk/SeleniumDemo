@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Appenders>
+  
+    <RollingFile
+    name="ManualLogs"
+    fileName="./framework-output/logs/ManualLogs.log"
+    filePattern="./framework-output/logs/ManualLogs.%d{dd-MMM}.log.gz"
+    append="true">
+      <PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss} %5p - %m%n"/>
+      <Policies>
+        <TimeBasedTriggeringPolicy interval="1"/>
+     </Policies>
+     <DefaultRolloverStrategy max="5" />
+    </RollingFile>
+    
+    <RollingFile
+    name="RootLogs"
+    fileName="./framework-output/logs/RootLogs.log"
+    filePattern="./framework-output/logs/ManualLogs.%i.log.gz"
+    append="true">
+      <PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss} %r %5p (%l) - %m%n"/>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="10MB" />
+    </Policies>
+    <DefaultRolloverStrategy max="2" />
+    </RollingFile>
+    
+    <Console name="STDOUT" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss} %5p - %m%n"/>
+    </Console>
+    
+  </Appenders>
+  <Loggers>
+    <Logger name="manualLogger" level="debug">
+      <AppenderRef ref="ManualLogs"/>
+    </Logger>
+
+    <Root level="debug">
+   	   <AppenderRef ref="STDOUT"/>
+      <AppenderRef ref="RootLogs"/>
+    </Root>
+  </Loggers>
+</Configuration>
