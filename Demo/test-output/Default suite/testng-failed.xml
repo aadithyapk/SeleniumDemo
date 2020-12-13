@@ -6,7 +6,7 @@
       <class name="tests.NewTest">
         <methods>
           <include name="teardownTests"/>
-          <include name="sampleTest" invocation-numbers="0"/>
+          <include name="sampleTest"/>
           <include name="setupTests"/>
         </methods>
       </class> <!-- tests.NewTest -->
