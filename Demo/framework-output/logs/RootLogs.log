@@ -399,3 +399,11 @@ Expected condition failed: waiting for visibility of element located by By.name:
 #
 #
 #
+19 Dec 2020 14:33:18 8116  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 14:33:22 12389  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 14:33:22 12518  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 14:33:23 13293  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 14:33:23 13301  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
