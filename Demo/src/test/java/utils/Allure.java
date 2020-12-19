@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Allure {
 	public static void allureServe() throws IOException
 	{
-		String command [] = {"cmd.exe", "/c", "allure", "serve", System.getProperty("user.dir")+"\\framework-output\\allure-results"};
+		String command [] = {"cmd.exe", "/c", "allure", "serve", System.getProperty("user.dir")+FrameworkUtils.getTestProperty("allure-results.path")};
 		try {
 		    Process process = Runtime.getRuntime().exec(command);
 		    BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -16,8 +16,8 @@ public class Allure {
 		        System.out.println(line);
 		    }
 		    reader.close();
-		} catch (IOException e) {
-		    e.printStackTrace();
+		} catch (Exception e) {
+			Log.logException("executing allure serve", e);
 		}
 	}
 }

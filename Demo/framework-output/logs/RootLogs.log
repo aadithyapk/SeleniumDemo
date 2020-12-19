@@ -407,3 +407,53 @@ Expected condition failed: waiting for visibility of element located by By.name:
 #
 #
 #
+19 Dec 2020 15:57:52 8624  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 15:57:53 10220  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 15:57:53 10516  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 15:57:54 11183  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 15:57:54 11192  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 16:03:59 2517  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 16:03:59 2532  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 16:05:49 2627  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 16:05:49 2643  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 16:56:27 8394  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 16:56:28 10043  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 16:56:29 10197  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 16:56:29 10762  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 16:56:29 10772  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 17:11:19 12480  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 17:11:21 14929  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 17:11:22 15224  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 17:11:23 16494  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 17:11:23 16583  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 17:17:47 11291  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 17:17:50 13700  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 17:17:50 13931  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 17:17:51 15473  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 17:17:51 15608  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 17:32:40 11985  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 17:32:43 14574  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 17:32:43 14853  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 17:32:45 16278  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 17:32:45 16289  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#

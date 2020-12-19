@@ -15,6 +15,8 @@
  	<aspectjweaver.version>1.9.6</aspectjweaver.version>
  	<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
  	<poi.version>4.1.2</poi.version>
+ 	<commons-configuration2.version>2.7</commons-configuration2.version>
+ 	<commons-beanutils.version>1.9.4</commons-beanutils.version>
  </properties>
  
   <build>
@@ -105,6 +107,12 @@
 	    <groupId>io.qameta.allure</groupId>
 	    <artifactId>allure-commandline</artifactId>
 	    <version>${allure.version}</version>
+	    <exclusions>
+	    	<exclusion>
+	    		<groupId>org.slf4j</groupId>
+	    		<artifactId>slf4j-log4j12</artifactId>
+	    	</exclusion>
+	    </exclusions>
 	</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -127,6 +135,21 @@
 	    <artifactId>poi-ooxml-schemas</artifactId>
 	    <version>${poi.version}</version>
 	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-configuration2 -->
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-configuration2</artifactId>
+	    <version>${commons-configuration2.version}</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+	<dependency>
+	    <groupId>commons-beanutils</groupId>
+	    <artifactId>commons-beanutils</artifactId>
+	    <version>${commons-beanutils.version}</version>
+	</dependency>
+	
 	
   </dependencies>
 </project>

@@ -1,10 +1,6 @@
 package utils;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -19,15 +15,8 @@ public class ExcelUtils {
 		try {
 			OPCPackage pkg = OPCPackage.open(new File(strFilePath));
 			ExcelWBook = new XSSFWorkbook(pkg);
-		} catch (FileNotFoundException e) {
-			Log.logFatal("File in path - "+strFilePath+" was not found");
-			e.printStackTrace();
-		} catch (IOException e) {
-			Log.logError("IO Exception when accessing file in path - "+strFilePath);
-			e.printStackTrace();
-		} catch (InvalidFormatException e) {
-			Log.logError("Invalid format exception when accessing file in path - "+strFilePath);
-			e.printStackTrace();
+		} catch (Exception e) {
+			Log.logException("accessing excel file in path - "+strFilePath, e);
 		} 
 		ExcelWSheet = ExcelWBook.getSheet(strSheetName);
 	}

@@ -27,9 +27,8 @@ public class WebElementActions {
 				driver.findElement(by).clear();
 				driver.findElement(by).sendKeys(strText);
 				Log.logInfo("String - "+strText+" was sent to element identified "+by.toString());
-			}catch (Exception e) {
-				Log.logError("Error in sending String - "+strText+" to element identified "+by.toString());
-				Log.logError(e.getMessage());
+			} catch (Exception e) {
+				Log.logException("sending String - "+strText+" to element identified "+by.toString(), e);
 			}
 		}	
 	}
@@ -41,9 +40,8 @@ public class WebElementActions {
 				try {
 					driver.findElement(by).click();
 					Log.logInfo("Element identified "+by.toString()+" was clicked");
-				}catch (Exception e) {
-					Log.logError("Error in click element identified "+by.toString());
-					Log.logError(e.getMessage());
+				} catch (Exception e) {
+					Log.logException("clicking element identified "+by.toString(), e);
 				}				
 			}
 		}		
@@ -53,15 +51,14 @@ public class WebElementActions {
 	public boolean waitForElementVisibility(By by) {
 		boolean flag = true;
 		FluentWait<WebDriver> fluentWait = new FluentWait<>(driver)
-		        .withTimeout(Duration.ofSeconds(intTimeoutSeconds))
-		        .pollingEvery(Duration.ofMillis(intPollingMilli))
-		        .ignoring(NoSuchElementException.class);
+	        .withTimeout(Duration.ofSeconds(intTimeoutSeconds))
+	        .pollingEvery(Duration.ofMillis(intPollingMilli))
+	        .ignoring(NoSuchElementException.class);
 		try {
 			fluentWait.until(ExpectedConditions.visibilityOfElementLocated(by));
-		}catch(Exception e) {
+		} catch(Exception e) {
 			flag = false;
-			Log.logError("Element located "+by.toString()+" is not visible after waiting.");
-			Log.logError(e.getMessage());
+			Log.logException("waiting for located by - "+by.toString()+" to be visible", e);
 		}
 		return flag;
 	}
@@ -70,16 +67,15 @@ public class WebElementActions {
 	public boolean waitForElementClickable(By by) {
 		boolean flag = true;
 		FluentWait<WebDriver> fluentWait = new FluentWait<>(driver)
-		        .withTimeout(Duration.ofSeconds(intTimeoutSeconds))
-		        .pollingEvery(Duration.ofMillis(intPollingMilli))
-		        .ignoring(NoSuchElementException.class);
+	        .withTimeout(Duration.ofSeconds(intTimeoutSeconds))
+	        .pollingEvery(Duration.ofMillis(intPollingMilli))
+	        .ignoring(NoSuchElementException.class);
 		fluentWait.until(ExpectedConditions.elementToBeClickable(by));
 		try {
 			fluentWait.until(ExpectedConditions.elementToBeClickable(by));
-		}catch(Exception e) {
+		} catch(Exception e) {
 			flag = false;
-			Log.logError("Element located by - "+by.toString()+" is not clickable after waiting.");
-			Log.logError(e.getMessage());
+			Log.logException("waiting for located by - "+by.toString()+" to be clickable", e);
 		}
 		return flag;
 	}

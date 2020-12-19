@@ -5,6 +5,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import utils.Allure;
+import utils.FrameworkUtils;
 import utils.Log;
 
 public class TestListeners implements ITestListener {
@@ -20,7 +21,7 @@ public class TestListeners implements ITestListener {
     		
     @Override		
     public void onStart(ITestContext Result){
-    	
+    	FrameworkUtils.loadTestProperties();
     }	
 
     @Override		

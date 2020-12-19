@@ -12,10 +12,10 @@ import org.testng.annotations.Test;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Step;
 //import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.*;
 import utils.ExcelUtils;
+import utils.FrameworkUtils;
 
 @Listeners(TestListeners.class)
 
@@ -28,9 +28,8 @@ public class NewTest {
 	BankManagerHomePage objBankManagerHomePage;
 	
 	@BeforeTest
-	@Step("Launching Chrome driver")
 	public void setupTests() {
-		System.setProperty("webdriver.chrome.driver", "./src/test/resources/executables/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", FrameworkUtils.getTestProperty("chromeDriver.path"));
 		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -53,25 +52,22 @@ public class NewTest {
 	}
 	
 	@AfterTest
-	@Step("Cleaning Chrome driver")
 	public void teardownTests() {
 		//driver.close();
 		driver.quit();
 	}
 
 	@DataProvider(name="LoginCredentials")
-	@Step("Executing data provider")
     public Object[][] loginDataProvider() {
 		Object[][] testObjArray;
 		testObjArray = new Object[][] {	{ "mngr299483", "suqUpej" } };
 		/*String strFilePath, strSheetName;
 		int intTestCaseRow;
-		strFilePath = "./src/test/resources/datasheets/TestData.xlsx";
+		strFilePath = FrameworkUtils.getTestProperty("testdata.path");
 		strSheetName = "Login";
 		ExcelUtils.setExcelFile(strFilePath, strSheetName);
 		intTestCaseRow = ExcelUtils.getRowContains(strTestCaseName,0);
 		testObjArray = ExcelUtils.getTableArray(strFilePath,strSheetName,intTestCaseRow);*/
 	    return testObjArray;
-	}
-	
+	}	
 }

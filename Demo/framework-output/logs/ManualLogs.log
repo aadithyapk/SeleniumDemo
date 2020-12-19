@@ -91,3 +91,53 @@
 #
 #
 #
+19 Dec 2020 15:57:52  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 15:57:53  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 15:57:53  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 15:57:54  INFO - Element identified By.name: btnLogin was clicked
+19 Dec 2020 15:57:54  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 16:03:59  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 16:03:59  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 16:05:49  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 16:05:49  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 16:56:27  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 16:56:28  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 16:56:29  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 16:56:29  INFO - Element identified By.name: btnLogin was clicked
+19 Dec 2020 16:56:29  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 17:11:19  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 17:11:21  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 17:11:22  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 17:11:23  INFO - Element identified By.name: btnLogin was clicked
+19 Dec 2020 17:11:23  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 17:17:47  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 17:17:50  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 17:17:50  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 17:17:51  INFO - Element identified By.name: btnLogin was clicked
+19 Dec 2020 17:17:51  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 17:32:40  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 17:32:43  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 17:32:43  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 17:32:45  INFO - Element identified By.name: btnLogin was clicked
+19 Dec 2020 17:32:45  INFO - ***************************************************************************************
+#
+#
+#

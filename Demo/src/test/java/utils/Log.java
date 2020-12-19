@@ -32,4 +32,10 @@ public class Log {
 	public static void logTrace(String message) {
 		log.log(Level.TRACE, message);
 	}
+	public static void logException(Exception e) {
+		log.log(Level.ERROR, "Exception occured. Exception class - "+e.getClass().getSimpleName()+" Exception message - "+e.getMessage());
+	}
+	public static void logException(String strDescription, Exception e) {
+		log.log(Level.ERROR, "Exception occured when "+strDescription+". Exception class - "+e.getClass().getSimpleName()+" Exception message - "+e.getMessage());
+	}
 }
