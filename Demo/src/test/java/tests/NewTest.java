@@ -30,7 +30,7 @@ public class NewTest {
 	@BeforeTest
 	@Step("Launching Chrome driver")
 	public void setupTests() {
-		System.setProperty("webdriver.chrome.driver", "./src/test/resources/executables/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/executables/drivers/chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
