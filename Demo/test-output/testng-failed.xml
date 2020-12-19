@@ -6,8 +6,9 @@
       <class name="tests.NewTest">
         <methods>
           <include name="teardownTests"/>
-          <include name="sampleTest"/>
+          <include name="TC001_sampleTest"/>
           <include name="setupTests"/>
+          <include name="getMethodName"/>
         </methods>
       </class> <!-- tests.NewTest -->
     </classes>

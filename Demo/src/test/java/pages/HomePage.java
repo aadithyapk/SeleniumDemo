@@ -4,10 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import io.qameta.allure.Step;
+import utils.WebElementActions;
 
 public class HomePage {
 	
 	WebDriver driver;
+	WebElementActions  webElementAction;
 	
 	By txtUserName = By.name("uid");
 	By txtPassword = By.name("password");
@@ -16,18 +18,22 @@ public class HomePage {
 	
 	public HomePage (WebDriver driver) {
 		this.driver = driver;
+		webElementAction = new WebElementActions(driver);
 	}
 	
+	@Step("Enter username - {strUserName}")
 	private void setUserName(String strUserName) {
-		driver.findElement(txtUserName).sendKeys(strUserName);
+		webElementAction.enterText(txtUserName, strUserName);
 	}
 	
+	@Step("Enter password - {strPassword}")
 	private void setPassword(String strPassword) {
-		driver.findElement(txtPassword).sendKeys(strPassword);
+		webElementAction.enterText(txtPassword, strPassword);
 	}
 	
+	@Step("Click Login button")
 	private void clickLogin() {
-		driver.findElement(btnLogin).click();
+		webElementAction.clickElement(btnLogin);
 	}
 	
 	@Step("Launch Guru99 homepage and assert page title")

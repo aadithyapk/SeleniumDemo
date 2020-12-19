@@ -1,13 +1,11 @@
 package tests;
 
 import java.io.IOException;
-
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import global.Allure;
-import global.Log;
+import utils.Allure;
+import utils.Log;
 
 public class TestListeners implements ITestListener {
 	

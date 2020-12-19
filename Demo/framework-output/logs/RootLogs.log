@@ -133,3 +133,269 @@
 #
 #
 #
+13 Dec 2020 18:01:01 9565  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:03:24 9940  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:05:26 9550  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:10:30 9092 FATAL (utils.Log.logFatal(Log.java:27)) - File in path - /src/test/resources/datasheets/TestData.xlsx was not found
+13 Dec 2020 18:10:30 9158  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:13:42 10495  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:14:27 2800 FATAL (utils.Log.logFatal(Log.java:27)) - File in path - /src/test/resources/datasheets/TestData.xlsx was not found
+13 Dec 2020 18:14:27 2838  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:15:33 10786  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:23:11 11349  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:37:32 9489  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:49:38 11539  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 18:51:14 9787  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 19:32:18 9667  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 19:44:55 9109  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 19:54:29 9103  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 19:55:20 8943  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 19:59:21 12891  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 20:00:11 9104  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 20:05:07 8710  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 20:14:01 9401  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 20:26:51 9383  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 20:50:09 8711  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 20:50:41 9059  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 21:18:31 8634  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 21:20:03 9153  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+13 Dec 2020 21:23:16 9108  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 20:00:24 11212  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 20:05:24 8540  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 20:05:27 11111  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:00:37 8563  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:00:38 9945  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:13:22 8425  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:13:23 9878  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:15:05 8426  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:15:06 9860  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:16:18 65963  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:25:52 8485  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:25:54 9953  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:27:51 8531  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:29:56 9061  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:31:41 9073  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:31:43 10376  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:32:05 9743  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:34:39 8401  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:34:41 10029  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:36:17 8260  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:36:18 9829  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was senn to element identified by - By.name: uid was clicked
+17 Dec 2020 23:36:18 9954  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was senn to element identified by - By.name: password was clicked
+17 Dec 2020 23:36:19 10502  INFO (utils.Log.logInfo(Log.java:18)) - Element identified by - By.name: btnLogin was clicked
+17 Dec 2020 23:36:19 10515  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:38:10 8306  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:38:12 10115  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was senn to element identified By.name: uid
+17 Dec 2020 23:38:42 40309 ERROR (utils.Log.logError(Log.java:24)) - Element located By.name: password1 is not visible after waiting
+17 Dec 2020 23:38:42 40331  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:49:51 8406  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:49:53 10072  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+17 Dec 2020 23:50:08 25079 ERROR (utils.Log.logError(Log.java:24)) - Element located By.name: password1 is not visible after waiting
+Exception message is:
+Expected condition failed: waiting for visibility of element located by By.name: password1 (tried for 15 second(s) with 200 milliseconds interval)
+17 Dec 2020 23:50:08 25080  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password1
+17 Dec 2020 23:50:08 25564  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+17 Dec 2020 23:50:08 25572  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+17 Dec 2020 23:53:45 8752  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:57:14 8471  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+17 Dec 2020 23:57:16 9988  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+17 Dec 2020 23:57:31 25186 ERROR (utils.Log.logError(Log.java:24)) - Element located By.name: password1 is not visible after waiting. Exception message is:
+Expected condition failed: waiting for visibility of element located by By.name: password1 (tried for 15 second(s) with 200 milliseconds interval)
+17 Dec 2020 23:57:31 25556  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+17 Dec 2020 23:57:31 25572  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 10:28:34 12175  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 10:28:36 14443  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 10:28:51 29655 ERROR (utils.Log.logError(Log.java:24)) - Element located By.name: password1 is not visible after waiting.
+19 Dec 2020 10:28:51 29657 ERROR (utils.Log.logError(Log.java:24)) - Expected condition failed: waiting for visibility of element located by By.name: password1 (tried for 15 second(s) with 200 milliseconds interval)
+19 Dec 2020 10:28:52 30648  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 10:28:52 30670  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 10:45:06 12664  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 11:20:25 9280  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 11:26:43 8962  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 11:37:08 9290  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 11:41:52 10165  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 13:40:15 9139  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 13:40:37 9149  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 13:42:36 8982  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 13:47:08 8978  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 13:58:13 8295  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 13:58:15 10035  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 13:58:15 10175  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 13:58:15 10872  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 13:58:15 10878  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 14:00:06 8196  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 14:00:08 10065  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 14:00:08 10181  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 14:00:09 11443  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 14:00:09 11450  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 14:03:17 8455  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 14:03:19 9933  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 14:03:19 10058  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 14:03:20 10643  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 14:03:20 10649  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 14:21:00 8532  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 14:21:01 9964  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 14:21:02 10084  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 14:21:02 10733  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 14:21:02 10740  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 14:24:37 8591  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 14:24:38 10382  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 14:24:39 10498  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 14:24:40 11818  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 14:24:40 11825  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#

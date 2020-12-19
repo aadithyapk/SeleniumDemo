@@ -14,6 +14,7 @@
  	<allure.version>2.13.7</allure.version>
  	<aspectjweaver.version>1.9.6</aspectjweaver.version>
  	<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+ 	<poi.version>4.1.2</poi.version>
  </properties>
  
   <build>
@@ -24,8 +25,8 @@
 	        <artifactId>maven-compiler-plugin</artifactId>
 	        <version>${maven-compiler-plugin.version}</version>
 	        <configuration>
-	          <source>1.8</source>
-	          <target>1.8</target>
+	          <source>15</source>
+	          <target>14</target>
 	        </configuration>
 	      </plugin>
 	      
@@ -104,6 +105,27 @@
 	    <groupId>io.qameta.allure</groupId>
 	    <artifactId>allure-commandline</artifactId>
 	    <version>${allure.version}</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi</artifactId>
+	    <version>${poi.version}</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml</artifactId>
+	    <version>${poi.version}</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml-schemas</artifactId>
+	    <version>${poi.version}</version>
 	</dependency>
 	
   </dependencies>
