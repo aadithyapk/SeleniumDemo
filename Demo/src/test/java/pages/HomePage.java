@@ -13,7 +13,7 @@ public class HomePage {
 	
 	By txtUserName = By.name("uid");
 	By txtPassword = By.name("password");
-	By btnLogin = By.name("btnLogin1");
+	By btnLogin = By.name("btnLogin");
 	String strHomePageTitle =  "Guru99 Bank Home Page";
 	
 	public HomePage (WebDriver driver) {

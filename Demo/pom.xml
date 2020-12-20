@@ -11,7 +11,8 @@
  	<testng.version>7.3.0</testng.version>
  	<log4j-core.version>2.14.0</log4j-core.version>
  	<slf4j-simple.version>1.7.30</slf4j-simple.version>
- 	<allure.version>2.13.7</allure.version>
+ 	<allure.version>2.13.8</allure.version>
+ 	<allure-maven.version>2.10.0</allure-maven.version>
  	<aspectjweaver.version>1.9.6</aspectjweaver.version>
  	<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
  	<poi.version>4.1.2</poi.version>
@@ -52,6 +53,7 @@
                 </dependency>
             </dependencies>
         </plugin>
+    
       </plugins>
     </pluginManagement>
   </build>
@@ -102,19 +104,6 @@
 	    <scope>test</scope>
 	</dependency>
 	
-	<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-commandline -->
-	<dependency>
-	    <groupId>io.qameta.allure</groupId>
-	    <artifactId>allure-commandline</artifactId>
-	    <version>${allure.version}</version>
-	    <exclusions>
-	    	<exclusion>
-	    		<groupId>org.slf4j</groupId>
-	    		<artifactId>slf4j-log4j12</artifactId>
-	    	</exclusion>
-	    </exclusions>
-	</dependency>
-	
 	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 	<dependency>
 	    <groupId>org.apache.poi</groupId>
@@ -149,7 +138,6 @@
 	    <artifactId>commons-beanutils</artifactId>
 	    <version>${commons-beanutils.version}</version>
 	</dependency>
-	
 	
   </dependencies>
 </project>

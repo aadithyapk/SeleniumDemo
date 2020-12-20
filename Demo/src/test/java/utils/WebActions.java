@@ -3,11 +3,14 @@ package utils;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.Assert;
 
+import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 
 
@@ -98,5 +101,10 @@ public class WebActions {
 	public void launchURL(String strURL) {
 		driver.get(strURL);
 		Log.logInfo("Launching URL '"+strURL+"'");
+	}
+	
+	@Attachment(value = "Screenshot", type = "image/png")
+	public byte[] takeScreenshot() {
+	    return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 	}
 }

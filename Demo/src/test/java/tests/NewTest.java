@@ -3,6 +3,7 @@ package tests;
 import java.lang.reflect.Method;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -29,11 +30,12 @@ public class NewTest {
 	BankManagerHomePage objBankManagerHomePage;
 	
 	@BeforeTest
-	public void setupTests() {
+	public void setupTests(ITestContext context) {
 		System.setProperty("webdriver.chrome.driver", FrameworkUtils.getTestProperty("chromeDriver.path"));
 		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		Log.logInfo("Starting web driver");
+		context.setAttribute("WebDriver", driver);
 		driver.manage().window().maximize();
 	}
 	
