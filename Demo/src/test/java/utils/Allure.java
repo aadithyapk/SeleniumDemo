@@ -1,11 +1,10 @@
 package utils;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Allure {
-	public static void allureServe() throws IOException
+	public static void allureServe()
 	{
 		String command [] = {"cmd.exe", "/c", "allure", "serve", System.getProperty("user.dir")+FrameworkUtils.getTestProperty("allure-results.path")};
 		try {

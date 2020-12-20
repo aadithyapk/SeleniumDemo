@@ -457,3 +457,74 @@ Expected condition failed: waiting for visibility of element located by By.name:
 #
 #
 #
+19 Dec 2020 18:20:42 12016  INFO (utils.Log.startTestCase(Log.java:12)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 18:20:45 14669  INFO (utils.Log.logInfo(Log.java:18)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 18:20:45 14893  INFO (utils.Log.logInfo(Log.java:18)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 18:20:46 15565  INFO (utils.Log.logInfo(Log.java:18)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 18:20:46 15590  INFO (utils.Log.endTestCase(Log.java:15)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 18:48:25 9723  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+19 Dec 2020 18:48:27 12183  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 18:48:29 14556  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 18:48:30 14735  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 18:48:30 15304  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 18:48:30 15318  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 18:48:32 16773  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+19 Dec 2020 18:58:47 9893  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+19 Dec 2020 18:58:49 12477  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 18:58:51 14340  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 18:58:51 14349  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+19 Dec 2020 18:58:51 14621  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 18:58:51 14808  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 18:58:52 15762  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+19 Dec 2020 18:58:52 15774  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Manager HomePage' matches with expected title 'Guru99 Bank Manager HomePage'
+19 Dec 2020 18:58:52 15779  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 18:58:53 16823  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+19 Dec 2020 19:01:01 8957  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+19 Dec 2020 19:01:04 11403  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 19:01:06 13488  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 19:01:06 13499 ERROR (utils.Log.logError(Log.java:25)) - Actual title 'Guru99 Bank Home Page' does not matche with expected title 'Guru99 Bank Home Page1'
+19 Dec 2020 19:01:06 13516  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 19:01:07 14243  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+19 Dec 2020 19:01:56 9173  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+19 Dec 2020 19:01:58 11599  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 19:02:00 13053  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 19:02:00 13065  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+19 Dec 2020 19:02:00 13759  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 19:02:01 13942  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 19:02:16 29080 ERROR (utils.Log.logException(Log.java:45)) - Exception occured when waiting for located by - By.name: btnLogin1 to be visible. Exception class - TimeoutException Exception message - Expected condition failed: waiting for visibility of element located by By.name: btnLogin1 (tried for 15 second(s) with 200 milliseconds interval)
+19 Dec 2020 19:02:16 29095 ERROR (utils.Log.logError(Log.java:25)) - Actual title 'Guru99 Bank Home Page' does not matche with expected title 'Guru99 Bank Manager HomePage1'
+19 Dec 2020 19:02:16 29121  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 19:02:17 30058  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+19 Dec 2020 19:07:35 9425  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+19 Dec 2020 19:07:37 11838  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 19:07:39 13883  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 19:07:39 13894  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+19 Dec 2020 19:08:17 51817  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 19:08:18 52132  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 19:10:17 10063  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+19 Dec 2020 19:10:19 12671  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 19:10:30 22926  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 19:10:30 22937  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+19 Dec 2020 19:10:30 23229  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 19:10:30 23454  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 19:10:45 38517 ERROR (utils.Log.logException(Log.java:45)) - Exception occured when waiting for located by - By.name: btnLogin1 to be visible. Exception class - TimeoutException Exception message - Expected condition failed: waiting for visibility of element located by By.name: btnLogin1 (tried for 15 second(s) with 200 milliseconds interval)
+19 Dec 2020 19:10:45 38545  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 19:10:46 39353  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver

@@ -141,3 +141,74 @@
 #
 #
 #
+19 Dec 2020 18:20:42  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 18:20:45  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 18:20:45  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 18:20:46  INFO - Element identified By.name: btnLogin was clicked
+19 Dec 2020 18:20:46  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 18:48:25  INFO - Starting web driver
+19 Dec 2020 18:48:27  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 18:48:29  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 18:48:30  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 18:48:30  INFO - Element identified By.name: btnLogin was clicked
+19 Dec 2020 18:48:30  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 18:48:32  INFO - Quitting webdriver
+19 Dec 2020 18:58:47  INFO - Starting web driver
+19 Dec 2020 18:58:49  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 18:58:51  INFO - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 18:58:51  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+19 Dec 2020 18:58:51  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 18:58:51  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 18:58:52  INFO - Element identified By.name: btnLogin was clicked
+19 Dec 2020 18:58:52  INFO - Actual title 'Guru99 Bank Manager HomePage' matches with expected title 'Guru99 Bank Manager HomePage'
+19 Dec 2020 18:58:52  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 18:58:53  INFO - Quitting webdriver
+19 Dec 2020 19:01:01  INFO - Starting web driver
+19 Dec 2020 19:01:04  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 19:01:06  INFO - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 19:01:06 ERROR - Actual title 'Guru99 Bank Home Page' does not matche with expected title 'Guru99 Bank Home Page1'
+19 Dec 2020 19:01:06  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 19:01:07  INFO - Quitting webdriver
+19 Dec 2020 19:01:56  INFO - Starting web driver
+19 Dec 2020 19:01:58  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 19:02:00  INFO - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 19:02:00  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+19 Dec 2020 19:02:00  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 19:02:01  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 19:02:16 ERROR - Exception occured when waiting for located by - By.name: btnLogin1 to be visible. Exception class - TimeoutException Exception message - Expected condition failed: waiting for visibility of element located by By.name: btnLogin1 (tried for 15 second(s) with 200 milliseconds interval)
+19 Dec 2020 19:02:16 ERROR - Actual title 'Guru99 Bank Home Page' does not matche with expected title 'Guru99 Bank Manager HomePage1'
+19 Dec 2020 19:02:16  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 19:02:17  INFO - Quitting webdriver
+19 Dec 2020 19:07:35  INFO - Starting web driver
+19 Dec 2020 19:07:37  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 19:07:39  INFO - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 19:07:39  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+19 Dec 2020 19:08:17  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 19:08:18  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 19:10:17  INFO - Starting web driver
+19 Dec 2020 19:10:19  INFO - *******************************	TC001_sampleTest		*******************************
+19 Dec 2020 19:10:30  INFO - Launching URL 'http://demo.guru99.com/v4/'
+19 Dec 2020 19:10:30  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+19 Dec 2020 19:10:30  INFO - String - mngr299483 was sent to element identified By.name: uid
+19 Dec 2020 19:10:30  INFO - String - suqUpej was sent to element identified By.name: password
+19 Dec 2020 19:10:45 ERROR - Exception occured when waiting for located by - By.name: btnLogin1 to be visible. Exception class - TimeoutException Exception message - Expected condition failed: waiting for visibility of element located by By.name: btnLogin1 (tried for 15 second(s) with 200 milliseconds interval)
+19 Dec 2020 19:10:45  INFO - ***************************************************************************************
+#
+#
+#
+19 Dec 2020 19:10:46  INFO - Quitting webdriver

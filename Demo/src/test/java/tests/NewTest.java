@@ -16,6 +16,7 @@ import io.qameta.allure.SeverityLevel;
 import pages.*;
 import utils.ExcelUtils;
 import utils.FrameworkUtils;
+import utils.Log;
 
 @Listeners(TestListeners.class)
 
@@ -32,6 +33,7 @@ public class NewTest {
 		System.setProperty("webdriver.chrome.driver", FrameworkUtils.getTestProperty("chromeDriver.path"));
 		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		Log.logInfo("Starting web driver");
 		driver.manage().window().maximize();
 	}
 	
@@ -55,6 +57,7 @@ public class NewTest {
 	public void teardownTests() {
 		//driver.close();
 		driver.quit();
+		Log.logInfo("Quitting webdriver");
 	}
 
 	@DataProvider(name="LoginCredentials")

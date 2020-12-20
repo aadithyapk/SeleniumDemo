@@ -6,17 +6,18 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.testng.Assert;
 
 import io.qameta.allure.Step;
 
 
-public class WebElementActions {
+public class WebActions {
 	
 	WebDriver driver;
 	final static int intTimeoutSeconds = 15;
 	final static int intPollingMilli = 200;
 	
-	public WebElementActions (WebDriver driver) {
+	public WebActions (WebDriver driver) {
 		this.driver = driver;
 	}
 	
@@ -58,7 +59,7 @@ public class WebElementActions {
 			fluentWait.until(ExpectedConditions.visibilityOfElementLocated(by));
 		} catch(Exception e) {
 			flag = false;
-			Log.logException("waiting for located by - "+by.toString()+" to be visible", e);
+			Log.logException("waiting for element located by - "+by.toString()+" to be visible", e);
 		}
 		return flag;
 	}
@@ -75,9 +76,27 @@ public class WebElementActions {
 			fluentWait.until(ExpectedConditions.elementToBeClickable(by));
 		} catch(Exception e) {
 			flag = false;
-			Log.logException("waiting for located by - "+by.toString()+" to be clickable", e);
+			Log.logException("waiting for element located by - "+by.toString()+" to be clickable", e);
 		}
 		return flag;
 	}
 	
+	@Step("Asserting page title to expected title '{strExpectedTitle}'")
+	public void assertPageTitle(String strExpectedTitle) {
+		String strActualTitle = driver.getTitle().trim();
+		strExpectedTitle = strExpectedTitle.trim();
+		boolean boolCompareResults = strActualTitle.equals(strExpectedTitle);
+		if (boolCompareResults) {
+			Log.logInfo("Actual title '"+strActualTitle+"' matches with expected title '"+strExpectedTitle+"'");
+		}
+		else {
+			Log.logError("Actual title '"+strActualTitle+"' does not match with expected title '"+strExpectedTitle+"'");
+		}
+	}
+	
+	@Step("Lanching URL '{strURL}'")
+	public void launchURL(String strURL) {
+		driver.get(strURL);
+		Log.logInfo("Launching URL '"+strURL+"'");
+	}
 }
