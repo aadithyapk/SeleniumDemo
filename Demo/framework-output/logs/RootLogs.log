@@ -695,3 +695,16 @@ Expected condition failed: waiting for visibility of element located by By.name:
 #
 #
 20 Dec 2020 00:21:14 12044  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+20 Dec 2020 00:24:25 6573  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+20 Dec 2020 00:24:27 8902  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+20 Dec 2020 00:24:29 10494  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+20 Dec 2020 00:24:29 10501  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+20 Dec 2020 00:24:29 10664  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+20 Dec 2020 00:24:29 10777  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+20 Dec 2020 00:24:30 11630  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+20 Dec 2020 00:24:30 11634 ERROR (utils.Log.logError(Log.java:25)) - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
+20 Dec 2020 00:24:30 12010  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+20 Dec 2020 00:24:31 12637  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver

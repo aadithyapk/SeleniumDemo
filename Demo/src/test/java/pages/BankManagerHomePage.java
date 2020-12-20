@@ -1,7 +1,6 @@
 package pages;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import io.qameta.allure.Step;
 import utils.WebActions;
 
