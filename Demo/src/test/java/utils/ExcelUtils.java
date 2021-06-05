@@ -32,7 +32,7 @@ public class ExcelUtils {
 		arrTabData=new String[totalRows][totalCols];
 		for (int j=startCol;j<=totalCols;j++, cj++) {
 			arrTabData[ci][cj]=getCellData(intTestCaseRow,j);
-			System.out.println(arrTabData[ci][cj]);
+			//System.out.println(arrTabData[ci][cj]);
 		}
 		return(arrTabData);
 	}

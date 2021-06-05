@@ -4,6 +4,7 @@ import java.lang.reflect.Method;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestContext;
+import org.testng.TestRunner;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -31,6 +32,8 @@ public class NewTest {
 	
 	@BeforeTest
 	public void setupTests(ITestContext context) {
+		TestRunner runner = (TestRunner)context;
+    	runner.setOutputDirectory(FrameworkUtils.getTestProperty("testng-output.path"));
 		System.setProperty("webdriver.chrome.driver", FrameworkUtils.getTestProperty("chromeDriver.path"));
 		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
@@ -57,7 +60,7 @@ public class NewTest {
 	
 	@AfterTest
 	public void teardownTests() {
-		//driver.close();
+		driver.close();
 		driver.quit();
 		Log.logInfo("Quitting webdriver");
 	}
@@ -65,14 +68,14 @@ public class NewTest {
 	@DataProvider(name="LoginCredentials")
     public Object[][] loginDataProvider() {
 		Object[][] testObjArray;
-		testObjArray = new Object[][] {	{ "mngr299483", "suqUpej" } };
-		/*String strFilePath, strSheetName;
+		//testObjArray = new Object[][] {	{ "mngr332130", "EdAbAda" } };
+		String strFilePath, strSheetName;
 		int intTestCaseRow;
 		strFilePath = FrameworkUtils.getTestProperty("testdata.path");
 		strSheetName = "Login";
 		ExcelUtils.setExcelFile(strFilePath, strSheetName);
 		intTestCaseRow = ExcelUtils.getRowContains(strTestCaseName,0);
-		testObjArray = ExcelUtils.getTableArray(strFilePath,strSheetName,intTestCaseRow);*/
+		testObjArray = ExcelUtils.getTableArray(strFilePath,strSheetName,intTestCaseRow);
 	    return testObjArray;
 	}	
 }

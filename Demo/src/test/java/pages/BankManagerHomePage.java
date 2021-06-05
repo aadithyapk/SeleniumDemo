@@ -8,7 +8,7 @@ public class BankManagerHomePage {
 	
 WebDriver driver;
 	
-	String strBankManagerHomePageTitle =  "Guru99 Bank Manager HomePage1";
+	String strBankManagerHomePageTitle =  "Guru99 Bank Manager HomePage";
 	WebActions webActions;
 	public BankManagerHomePage (WebDriver driver) {
 		this.driver = driver;

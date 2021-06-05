@@ -1,65 +1,68 @@
-20 Dec 2020 00:02:58  INFO - Starting web driver
-20 Dec 2020 00:03:01  INFO - *******************************	TC001_sampleTest		*******************************
-20 Dec 2020 00:03:02  INFO - Launching URL 'http://demo.guru99.com/v4/'
-20 Dec 2020 00:03:02  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
-20 Dec 2020 00:03:03  INFO - String - mngr299483 was sent to element identified By.name: uid
-20 Dec 2020 00:03:03  INFO - String - suqUpej was sent to element identified By.name: password
-20 Dec 2020 00:03:03  INFO - Element identified By.name: btnLogin was clicked
-20 Dec 2020 00:03:03 ERROR - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
-20 Dec 2020 00:03:04  INFO - ***************************************************************************************
+05 Jun. 2021 11:00:05  INFO - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:00:05  INFO - ***************************************************************************************
 #
 #
 #
-20 Dec 2020 00:03:04  INFO - Quitting webdriver
-20 Dec 2020 00:15:32  INFO - Starting web driver
-20 Dec 2020 00:15:34  INFO - *******************************	TC001_sampleTest		*******************************
-20 Dec 2020 00:15:35  INFO - Launching URL 'http://demo.guru99.com/v4/'
-20 Dec 2020 00:15:35  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
-20 Dec 2020 00:15:36  INFO - String - mngr299483 was sent to element identified By.name: uid
-20 Dec 2020 00:15:36  INFO - String - suqUpej was sent to element identified By.name: password
-20 Dec 2020 00:15:36  INFO - Element identified By.name: btnLogin was clicked
-20 Dec 2020 00:15:36 ERROR - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
-20 Dec 2020 00:15:37  INFO - ***************************************************************************************
+05 Jun. 2021 11:04:41  INFO - Starting web driver
+05 Jun. 2021 11:04:43  INFO - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:04:45  INFO - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:04:45  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:04:46  INFO - String - mngr299483 was sent to element identified By.name: uid
+05 Jun. 2021 11:04:46  INFO - String - suqUpej was sent to element identified By.name: password
+05 Jun. 2021 11:04:46  INFO - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:04:47  INFO - ***************************************************************************************
 #
 #
 #
-20 Dec 2020 00:15:37  INFO - Quitting webdriver
-20 Dec 2020 00:17:31  INFO - Starting web driver
-20 Dec 2020 00:17:33  INFO - *******************************	TC001_sampleTest		*******************************
-20 Dec 2020 00:17:35  INFO - Launching URL 'http://demo.guru99.com/v4/'
-20 Dec 2020 00:17:35  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
-20 Dec 2020 00:17:35  INFO - String - mngr299483 was sent to element identified By.name: uid
-20 Dec 2020 00:17:35  INFO - String - suqUpej was sent to element identified By.name: password
-20 Dec 2020 00:17:36  INFO - Element identified By.name: btnLogin was clicked
-20 Dec 2020 00:17:36 ERROR - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
-20 Dec 2020 00:17:37  INFO - ***************************************************************************************
+05 Jun. 2021 11:04:48  INFO - Quitting webdriver
+05 Jun. 2021 11:19:42  INFO - Starting web driver
+05 Jun. 2021 11:19:44  INFO - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:19:46  INFO - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:19:46  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:19:47  INFO - String - mngr299483 was sent to element identified By.name: uid
+05 Jun. 2021 11:19:47  INFO - String - suqUpej was sent to element identified By.name: password
+05 Jun. 2021 11:19:47  INFO - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:19:48  INFO - ***************************************************************************************
 #
 #
 #
-20 Dec 2020 00:17:38  INFO - Quitting webdriver
-20 Dec 2020 00:21:08  INFO - Starting web driver
-20 Dec 2020 00:21:10  INFO - *******************************	TC001_sampleTest		*******************************
-20 Dec 2020 00:21:12  INFO - Launching URL 'http://demo.guru99.com/v4/'
-20 Dec 2020 00:21:12  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
-20 Dec 2020 00:21:12  INFO - String - mngr299483 was sent to element identified By.name: uid
-20 Dec 2020 00:21:12  INFO - String - suqUpej was sent to element identified By.name: password
-20 Dec 2020 00:21:13  INFO - Element identified By.name: btnLogin was clicked
-20 Dec 2020 00:21:13 ERROR - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
-20 Dec 2020 00:21:13  INFO - ***************************************************************************************
+05 Jun. 2021 11:19:49  INFO - Quitting webdriver
+05 Jun. 2021 11:21:53  INFO - Starting web driver
+05 Jun. 2021 11:21:55  INFO - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:21:56  INFO - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:21:56  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:21:57  INFO - String - mngr332130 was sent to element identified By.name: uid
+05 Jun. 2021 11:21:57  INFO - String - EdAbAda was sent to element identified By.name: password
+05 Jun. 2021 11:21:58  INFO - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:21:58 ERROR - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
+05 Jun. 2021 11:21:58  INFO - ***************************************************************************************
 #
 #
 #
-20 Dec 2020 00:21:14  INFO - Quitting webdriver
-20 Dec 2020 00:24:25  INFO - Starting web driver
-20 Dec 2020 00:24:27  INFO - *******************************	TC001_sampleTest		*******************************
-20 Dec 2020 00:24:29  INFO - Launching URL 'http://demo.guru99.com/v4/'
-20 Dec 2020 00:24:29  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
-20 Dec 2020 00:24:29  INFO - String - mngr299483 was sent to element identified By.name: uid
-20 Dec 2020 00:24:29  INFO - String - suqUpej was sent to element identified By.name: password
-20 Dec 2020 00:24:30  INFO - Element identified By.name: btnLogin was clicked
-20 Dec 2020 00:24:30 ERROR - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
-20 Dec 2020 00:24:30  INFO - ***************************************************************************************
+05 Jun. 2021 11:21:59  INFO - Quitting webdriver
+05 Jun. 2021 11:22:56  INFO - Starting web driver
+05 Jun. 2021 11:22:58  INFO - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:23:00  INFO - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:23:00  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:23:01  INFO - String - mngr332130 was sent to element identified By.name: uid
+05 Jun. 2021 11:23:01  INFO - String - EdAbAda was sent to element identified By.name: password
+05 Jun. 2021 11:23:02  INFO - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:23:02  INFO - Actual title 'Guru99 Bank Manager HomePage' matches with expected title 'Guru99 Bank Manager HomePage'
+05 Jun. 2021 11:23:02  INFO - ***************************************************************************************
 #
 #
 #
-20 Dec 2020 00:24:31  INFO - Quitting webdriver
+05 Jun. 2021 11:23:03  INFO - Quitting webdriver
+05 Jun. 2021 11:28:10  INFO - Starting web driver
+05 Jun. 2021 11:28:12  INFO - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:28:13  INFO - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:28:13  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:28:14  INFO - String - mngr332130 was sent to element identified By.name: uid
+05 Jun. 2021 11:28:14  INFO - String - EdAbAda was sent to element identified By.name: password
+05 Jun. 2021 11:28:15  INFO - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:28:15  INFO - Actual title 'Guru99 Bank Manager HomePage' matches with expected title 'Guru99 Bank Manager HomePage'
+05 Jun. 2021 11:28:15  INFO - ***************************************************************************************
+#
+#
+#
+05 Jun. 2021 11:28:16  INFO - Quitting webdriver

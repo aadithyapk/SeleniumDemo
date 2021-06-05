@@ -708,3 +708,103 @@ Expected condition failed: waiting for visibility of element located by By.name:
 #
 #
 20 Dec 2020 00:24:31 12637  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+20 Dec 2020 00:43:31 6664  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+20 Dec 2020 00:43:33 9002  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+20 Dec 2020 00:43:35 10390  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+20 Dec 2020 00:43:35 10395  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+20 Dec 2020 00:43:35 10550  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+20 Dec 2020 00:43:35 10673  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+20 Dec 2020 00:43:36 11404  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+20 Dec 2020 00:43:36 11408 ERROR (utils.Log.logError(Log.java:25)) - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
+20 Dec 2020 00:43:36 11820  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+20 Dec 2020 00:43:37 12469  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+20 Dec 2020 00:45:40 6563  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+20 Dec 2020 00:45:42 8840  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+20 Dec 2020 00:45:44 10513  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+20 Dec 2020 00:45:44 10518  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+20 Dec 2020 00:45:44 10670  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+20 Dec 2020 00:45:44 10781  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+20 Dec 2020 00:45:44 11292  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+20 Dec 2020 00:45:44 11296 ERROR (utils.Log.logError(Log.java:25)) - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
+20 Dec 2020 00:45:45 11760  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+20 Dec 2020 00:45:45 12424  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+24 Dec 2020 19:40:10 8334  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+24 Dec 2020 19:40:13 11314  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+24 Dec 2020 19:40:14 12179  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+05 Jun. 2021 11:00:05 16119  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:00:05 16166  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+05 Jun. 2021 11:04:41 8151  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+05 Jun. 2021 11:04:43 10261  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:04:45 12232  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:04:45 12259  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:04:46 12558  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+05 Jun. 2021 11:04:46 12831  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+05 Jun. 2021 11:04:46 13197  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:04:47 13827  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+05 Jun. 2021 11:04:48 14687  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+05 Jun. 2021 11:19:42 8090  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+05 Jun. 2021 11:19:44 10299  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:19:46 12344  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:19:46 12369  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:19:47 12717  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr299483 was sent to element identified By.name: uid
+05 Jun. 2021 11:19:47 12908  INFO (utils.Log.logInfo(Log.java:19)) - String - suqUpej was sent to element identified By.name: password
+05 Jun. 2021 11:19:47 13315  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:19:48 14125  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+05 Jun. 2021 11:19:49 15039  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+05 Jun. 2021 11:21:53 8037  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+05 Jun. 2021 11:21:55 10024  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:21:56 11856  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:21:56 11881  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:21:57 12186  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr332130 was sent to element identified By.name: uid
+05 Jun. 2021 11:21:57 12363  INFO (utils.Log.logInfo(Log.java:19)) - String - EdAbAda was sent to element identified By.name: password
+05 Jun. 2021 11:21:58 13122  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:21:58 13140 ERROR (utils.Log.logError(Log.java:25)) - Actual title 'Guru99 Bank Manager HomePage' does not match with expected title 'Guru99 Bank Manager HomePage1'
+05 Jun. 2021 11:21:58 13606  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+05 Jun. 2021 11:21:59 14559  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+05 Jun. 2021 11:22:56 7735  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+05 Jun. 2021 11:22:58 9790  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:23:00 11730  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:23:00 11756  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:23:01 12110  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr332130 was sent to element identified By.name: uid
+05 Jun. 2021 11:23:01 12373  INFO (utils.Log.logInfo(Log.java:19)) - String - EdAbAda was sent to element identified By.name: password
+05 Jun. 2021 11:23:02 13521  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:23:02 13533  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Manager HomePage' matches with expected title 'Guru99 Bank Manager HomePage'
+05 Jun. 2021 11:23:02 13541  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+05 Jun. 2021 11:23:03 14449  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+05 Jun. 2021 11:28:10 8011  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+05 Jun. 2021 11:28:12 10089  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+05 Jun. 2021 11:28:13 11854  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+05 Jun. 2021 11:28:13 11886  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+05 Jun. 2021 11:28:14 12220  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr332130 was sent to element identified By.name: uid
+05 Jun. 2021 11:28:14 12397  INFO (utils.Log.logInfo(Log.java:19)) - String - EdAbAda was sent to element identified By.name: password
+05 Jun. 2021 11:28:15 13035  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+05 Jun. 2021 11:28:15 13045  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Manager HomePage' matches with expected title 'Guru99 Bank Manager HomePage'
+05 Jun. 2021 11:28:15 13051  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+05 Jun. 2021 11:28:16 14028  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
