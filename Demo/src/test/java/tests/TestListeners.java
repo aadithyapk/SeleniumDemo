@@ -17,7 +17,7 @@ public class TestListeners implements ITestListener {
 	WebActions webActions = null;
 	@Override		
     public void onFinish(ITestContext context) {
-		//Allure.allureServe();
+		Allure.allureServe();
 	}
     		
     @Override		
