@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-05T11:28:05 EDT" name="Default suite" finished-at="2021-06-05T11:28:16 EDT" duration-ms="10804">
+    <groups>
+    </groups>
+    <test started-at="2021-06-05T11:28:05 EDT" name="Default test" finished-at="2021-06-05T11:28:16 EDT" duration-ms="10804">
+      <class name="tests.NewTest">
+        <test-method is-config="true" signature="setupTests(org.testng.ITestContext)[pri:0, instance:tests.NewTest@2adddc06]" started-at="2021-06-05T11:28:05 EDT" name="setupTests" finished-at="2021-06-05T11:28:10 EDT" duration-ms="4527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@646ddc20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTests -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:tests.NewTest@2adddc06]" started-at="2021-06-05T11:28:11 EDT" name="getMethodName" finished-at="2021-06-05T11:28:11 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.NewTest.TC001_sampleTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="TC001_sampleTest(java.lang.String, java.lang.String)[pri:0, instance:tests.NewTest@2adddc06]" started-at="2021-06-05T11:28:12 EDT" name="TC001_sampleTest" data-provider="LoginCredentials" finished-at="2021-06-05T11:28:15 EDT" duration-ms="2957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr332130]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EdAbAda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_sampleTest -->
+        <test-method is-config="true" signature="teardownTests()[pri:0, instance:tests.NewTest@2adddc06]" started-at="2021-06-05T11:28:15 EDT" name="teardownTests" finished-at="2021-06-05T11:28:16 EDT" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTests -->
+      </class> <!-- tests.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
