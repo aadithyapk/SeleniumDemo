@@ -1,1 +1,231 @@
 test
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Map;
+import java.util.Set;
+import org.apache.poi.ss.usermodel.BorderStyle;
+import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.HorizontalAlignment;
+import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.VerticalAlignment;
+import org.apache.poi.ss.util.CellRangeAddress;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFColor;
+import org.apache.poi.xssf.usermodel.XSSFFont;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelUtils {
+
+	private static XSSFSheet ExcelWSheet;
+	private static XSSFWorkbook ExcelWBook;
+	private static XSSFCell Cell;
+
+	public static void setExcelFile(String Path, String SheetName) throws Exception {
+		try {
+			FileInputStream ExcelFile = new FileInputStream(Path);
+			ExcelWBook = new XSSFWorkbook(ExcelFile);
+			ExcelWSheet = ExcelWBook.getSheet(SheetName);
+			} catch (Exception e){
+				throw (e);
+		}
+	}
+
+	public static Object[][] getTableArray(String FilePath, String SheetName, int iTestCaseRow) throws Exception {
+		String[][] tabArray = null;
+		try {
+			FileInputStream ExcelFile = new FileInputStream(FilePath);
+			ExcelWBook = new XSSFWorkbook(ExcelFile);
+			ExcelWSheet = ExcelWBook.getSheet(SheetName);
+			int startCol = 0;
+			int ci = 0, cj = 0;
+			int totalRows = 1;
+			int totalCols = ExcelWSheet.getRow(0).getPhysicalNumberOfCells();
+			tabArray = new String[totalRows][totalCols];
+			for (int j = startCol; j < totalCols; j++, cj++) {
+				tabArray[ci][cj] = getCellData(iTestCaseRow, j);
+			}
+		}
+		catch (FileNotFoundException e) {
+			System.out.println("Could not read the Excel sheet");
+			e.printStackTrace();
+		}
+		catch (IOException e)
+		{
+			System.out.println("Could not read the Excel sheet");
+			e.printStackTrace();
+		}
+		return (tabArray);
+	}
+
+	public static String getCellData(int RowNum, int ColNum) throws Exception {
+		try {
+			Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
+			String CellData = Cell.getStringCellValue();
+			return CellData;
+		} catch (Exception e) {
+			return "";
+		}
+	}
+
+	public static String getTestCaseName(String sTestCase) throws Exception {
+		String value = sTestCase;
+		try {
+			int posi = value.indexOf("@");
+			value = value.substring(0, posi);
+			posi = value.lastIndexOf(".");
+			value = value.substring(posi + 1);
+			return value;
+		} catch (Exception e) {
+			throw (e);
+		}
+	}
+
+	public static int getRowContains(String sTestCaseName, int colNum) throws Exception {
+		int i;
+		try {
+			int rowCount = ExcelUtils.getRowUsed();
+			for (i = 0; i < rowCount; i++) {
+				if (ExcelUtils.getCellData(i, colNum).equalsIgnoreCase(sTestCaseName)) {
+					break;
+				}
+			}
+			return i;
+		} catch (Exception e) {
+			throw (e);
+		}
+	}
+
+	public static int getRowUsed() throws Exception {
+		try {
+			int RowCount = ExcelWSheet.getLastRowNum();
+			return RowCount;
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			throw (e);
+		}
+	}
+
+	public static void createExcel(String path, String sheetName, Map<Integer, Object[]> data) {
+		XSSFWorkbook workbook = new XSSFWorkbook();
+		XSSFSheet sheet = workbook.createSheet(sheetName);
+
+		int rownum = 0;
+
+		XSSFFont defaultFont = workbook.createFont();
+		defaultFont.setFontHeightInPoints((short) 11);
+		defaultFont.setFontName("Calibri");
+		defaultFont.setBold(false);
+		defaultFont.setItalic(false);
+
+		XSSFFont headerFont = workbook.createFont();
+		headerFont.setFontHeightInPoints((short) 11);
+		headerFont.setFontName("Calibri");
+		headerFont.setBold(true);
+		headerFont.setItalic(false);
+
+		XSSFFont errorFont = workbook.createFont();
+		errorFont.setFontHeightInPoints((short) 11);
+		errorFont.setFontName("Calibri");
+		errorFont.setBold(false);
+		errorFont.setItalic(false);
+		errorFont.setColor(IndexedColors.RED.index);
+
+		CellStyle headerStyle = workbook.createCellStyle();
+		headerStyle.setFont(headerFont);
+		headerStyle.setAlignment(HorizontalAlignment.CENTER);
+		headerStyle.setVerticalAlignment(VerticalAlignment.CENTER);
+		headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+		headerStyle.setFillForegroundColor(IndexedColors.PALE_BLUE.getIndex());
+		headerStyle.setBorderBottom(BorderStyle.THIN);
+		headerStyle.setBorderTop(BorderStyle.THIN);
+		headerStyle.setBorderRight(BorderStyle.THIN);
+		headerStyle.setBorderLeft(BorderStyle.THIN);
+
+		CellStyle defaultTextStyle = workbook.createCellStyle();
+		defaultTextStyle.setFont(defaultFont);
+		defaultTextStyle.setVerticalAlignment(VerticalAlignment.CENTER);
+		defaultTextStyle.setBorderBottom(BorderStyle.THIN);
+		defaultTextStyle.setBorderTop(BorderStyle.THIN);
+		defaultTextStyle.setBorderRight(BorderStyle.THIN);
+		defaultTextStyle.setBorderLeft(BorderStyle.THIN);
+
+		CellStyle defaultNumStyle = workbook.createCellStyle();
+		defaultNumStyle.setFont(defaultFont);
+		defaultNumStyle.setAlignment(HorizontalAlignment.CENTER);
+		defaultNumStyle.setVerticalAlignment(VerticalAlignment.CENTER);
+		defaultNumStyle.setBorderBottom(BorderStyle.THIN);
+		defaultNumStyle.setBorderTop(BorderStyle.THIN);
+		defaultNumStyle.setBorderRight(BorderStyle.THIN);
+		defaultNumStyle.setBorderLeft(BorderStyle.THIN);
+
+		CellStyle errorStyle = workbook.createCellStyle();
+		errorStyle.setFont(errorFont);
+		errorStyle.setVerticalAlignment(VerticalAlignment.CENTER);
+		errorStyle.setBorderBottom(BorderStyle.THIN);
+		errorStyle.setBorderTop(BorderStyle.THIN);
+		errorStyle.setBorderRight(BorderStyle.THIN);
+		errorStyle.setBorderLeft(BorderStyle.THIN);
+
+		Set<Integer> keyset = data.keySet();
+		for (Integer key : keyset) {
+			XSSFRow row = sheet.createRow(rownum++);
+			Object[] objArr = data.get(key);
+			int cellnum = 0;
+			for (Object obj : objArr) {
+				XSSFCell cell = row.createCell(cellnum++);
+				if (obj instanceof String) {
+					cell.setCellValue((String) obj);
+					if (rownum == 1) {
+						cell.setCellStyle(headerStyle);
+					} else if ((String) obj == "Mismatch") {
+						cell.setCellStyle(errorStyle);
+					} else {
+						cell.setCellStyle(defaultTextStyle);
+					}
+				} else if (obj instanceof Integer) {
+					cell.setCellValue((Integer) obj);
+					if (rownum == 1) {
+						cell.setCellStyle(headerStyle);
+					} else {
+						cell.setCellStyle(defaultNumStyle);
+					}
+				}
+
+			}
+		}
+
+		if (path.contains("CompareResults")) {
+			sheet.autoSizeColumn(0);
+			sheet.autoSizeColumn(1);
+			sheet.setColumnWidth(2, 50 * 256);
+			sheet.setColumnWidth(3, 50 * 256);
+			sheet.autoSizeColumn(4);
+			sheet.setAutoFilter(new CellRangeAddress(0, 0, 0, 4));
+			sheet.createFreezePane(0, 2);
+
+		} else if (path.contains("ValidateResults")) {
+			sheet.autoSizeColumn(0);
+			sheet.autoSizeColumn(1);
+			sheet.setColumnWidth(2, 50 * 256);
+			sheet.autoSizeColumn(3);
+			sheet.setAutoFilter(new CellRangeAddress(0, 0, 0, 3));
+			sheet.createFreezePane(0, 2);
+
+		}
+		try {
+			FileUtilities.deleteFileIfExist(path);
+			FileOutputStream outputStream = new FileOutputStream(path);
+			workbook.write(outputStream);
+			workbook.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
