@@ -1,4 +1,4 @@
-package tests;
+package webdrivertests;
 
 import java.lang.reflect.Method;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-//import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.*;
 import utils.ExcelUtils;
 import utils.FrameworkUtils;
@@ -22,7 +22,7 @@ import utils.Log;
 
 @Listeners(TestListeners.class)
 
-public class NewTest {
+public class WebDriverTestCases {
 	
 	private static WebDriver driver;
 	private static String strTestCaseName;
@@ -34,8 +34,8 @@ public class NewTest {
 	public void setupTests(ITestContext context) {
 		TestRunner runner = (TestRunner)context;
     	runner.setOutputDirectory(FrameworkUtils.getTestProperty("testng-output.path"));
-		System.setProperty("webdriver.chrome.driver", FrameworkUtils.getTestProperty("chromeDriver.path"));
-		//WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver", FrameworkUtils.getTestProperty("chromeDriver.path"));
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		Log.logInfo("Starting web driver");
 		context.setAttribute("WebDriver", driver);

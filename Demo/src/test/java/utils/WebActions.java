@@ -17,6 +17,7 @@ public class WebActions {
 	WebDriver driver;
 	final static int intTimeoutSeconds = 15;
 	final static int intPollingMilli = 200;
+	final static boolean boolScreenshotOneveryAction = Boolean.parseBoolean(FrameworkUtils.getTestProperty("screenshotOnEveryAction.flag"));
 	
 	public WebActions (WebDriver driver) {
 		this.driver = driver;
@@ -32,6 +33,11 @@ public class WebActions {
 			} catch (Exception e) {
 				Log.logException("sending String - "+strText+" to element identified "+by.toString(), e);
 			}
+			finally {
+				if (boolScreenshotOneveryAction) {
+					takeScreenshot();
+				}
+			}
 		}	
 	}
 	
@@ -44,7 +50,12 @@ public class WebActions {
 					Log.logInfo("Element identified "+by.toString()+" was clicked");
 				} catch (Exception e) {
 					Log.logException("clicking element identified "+by.toString(), e);
-				}				
+				}
+				finally {
+					if (boolScreenshotOneveryAction) {
+						takeScreenshot();
+					}
+				}
 			}
 		}		
 	}
@@ -61,6 +72,11 @@ public class WebActions {
 		} catch(Exception e) {
 			flag = false;
 			Log.logException("waiting for element located by - "+by.toString()+" to be visible", e);
+		}
+		finally {
+			if (boolScreenshotOneveryAction) {
+				takeScreenshot();
+			}
 		}
 		return flag;
 	}
@@ -79,6 +95,11 @@ public class WebActions {
 			flag = false;
 			Log.logException("waiting for element located by - "+by.toString()+" to be clickable", e);
 		}
+		finally {
+			if (boolScreenshotOneveryAction) {
+				takeScreenshot();
+			}
+		}
 		return flag;
 	}
 	
@@ -93,12 +114,18 @@ public class WebActions {
 		else {
 			Log.logError("Actual title '"+strActualTitle+"' does not match with expected title '"+strExpectedTitle+"'");
 		}
+		if (boolScreenshotOneveryAction) {
+			takeScreenshot();
+		}
 	}
 	
 	@Step("Lanching URL '{strURL}'")
 	public void launchURL(String strURL) {
 		driver.get(strURL);
 		Log.logInfo("Launching URL '"+strURL+"'");
+		if (boolScreenshotOneveryAction) {
+			takeScreenshot();
+		}
 	}
 	
 	@Attachment(value = "Screenshot", type = "image/png")

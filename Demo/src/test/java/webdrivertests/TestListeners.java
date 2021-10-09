@@ -1,11 +1,9 @@
-package tests;
+package webdrivertests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.TestRunner;
-
 import utils.Allure;
 import utils.FrameworkUtils;
 import utils.Log;

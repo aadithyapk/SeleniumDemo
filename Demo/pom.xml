@@ -7,15 +7,16 @@
  <properties>
  	<surefire-plugin.version>2.22.2</surefire-plugin.version>
  	<selenium-java.version>3.141.59</selenium-java.version>
- 	<webdrivermanager.version>4.2.2</webdrivermanager.version>
- 	<testng.version>7.3.0</testng.version>
+ 	<webdrivermanager.version>5.0.3</webdrivermanager.version>
+ 	<testng.version>7.4.0</testng.version>
  	<log4j-core.version>2.14.0</log4j-core.version>
  	<slf4j-simple.version>1.7.30</slf4j-simple.version>
- 	<allure.version>2.13.8</allure.version>
+ 	<allure.version>2.15.0</allure.version>
  	<allure-maven.version>2.10.0</allure-maven.version>
  	<aspectjweaver.version>1.9.6</aspectjweaver.version>
  	<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
  	<poi.version>4.1.2</poi.version>
+ 	<poi-ooxml-schemas>4.1.2</poi-ooxml-schemas>
  	<commons-configuration2.version>2.7</commons-configuration2.version>
  	<commons-beanutils.version>1.9.4</commons-beanutils.version>
  </properties>
@@ -72,6 +73,7 @@
 	    <groupId>io.github.bonigarcia</groupId>
 	    <artifactId>webdrivermanager</artifactId>
 	    <version>${webdrivermanager.version}</version>
+	    <scope>test</scope>
 	</dependency>
 	
   	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -122,7 +124,7 @@
 	<dependency>
 	    <groupId>org.apache.poi</groupId>
 	    <artifactId>poi-ooxml-schemas</artifactId>
-	    <version>${poi.version}</version>
+	    <version>${poi-ooxml-schemas}</version>
 	</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-configuration2 -->
