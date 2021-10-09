@@ -847,3 +847,38 @@ Expected condition failed: waiting for visibility of element located by By.name:
 #
 #
 05 Jun. 2021 11:49:33 14330  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+08 Oct. 2021 22:33:07 19792  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+08 Oct. 2021 22:33:07 19853  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+08 Oct. 2021 22:37:00 7093  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+08 Oct. 2021 22:37:01 8959  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+08 Oct. 2021 22:37:03 10655  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+08 Oct. 2021 22:37:04 11052  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+08 Oct. 2021 22:37:04 11876  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr332130 was sent to element identified By.name: uid
+08 Oct. 2021 22:37:05 12752  INFO (utils.Log.logInfo(Log.java:19)) - String - EdAbAda was sent to element identified By.name: password
+08 Oct. 2021 22:37:06 13758  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+08 Oct. 2021 22:37:07 14585  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+08 Oct. 2021 22:37:09 16073  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+08 Oct. 2021 22:46:19 19032  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+08 Oct. 2021 22:46:21 21336  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+08 Oct. 2021 22:46:24 24765  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+08 Oct. 2021 22:49:09 9441  INFO (utils.Log.logInfo(Log.java:19)) - Starting web driver
+08 Oct. 2021 22:49:12 12298  INFO (utils.Log.startTestCase(Log.java:13)) - *******************************	TC001_sampleTest		*******************************
+08 Oct. 2021 22:49:13 13893  INFO (utils.Log.logInfo(Log.java:19)) - Launching URL 'http://demo.guru99.com/v4/'
+08 Oct. 2021 22:49:13 14173  INFO (utils.Log.logInfo(Log.java:19)) - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+08 Oct. 2021 22:49:14 14924  INFO (utils.Log.logInfo(Log.java:19)) - String - mngr332130 was sent to element identified By.name: uid
+08 Oct. 2021 22:49:15 15731  INFO (utils.Log.logInfo(Log.java:19)) - String - EdAbAda was sent to element identified By.name: password
+08 Oct. 2021 22:49:16 16755  INFO (utils.Log.logInfo(Log.java:19)) - Element identified By.name: btnLogin was clicked
+08 Oct. 2021 22:49:17 17355  INFO (utils.Log.endTestCase(Log.java:16)) - ***************************************************************************************
+#
+#
+#
+08 Oct. 2021 22:49:19 19669  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
