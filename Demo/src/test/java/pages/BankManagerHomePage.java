@@ -19,5 +19,4 @@ WebDriver driver;
 	public void assertBankManagerHomePageTitle() {
 		webActions.assertPageTitle(strBankManagerHomePageTitle);
 	}
-
 }
