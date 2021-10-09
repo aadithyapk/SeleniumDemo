@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 12 Dec 2020 20:04:48 2409  INFO (global.Log.startTestCase(Log.java:11)) - *******************************	sampleTest		*******************************
 12 Dec 2020 20:04:48 2413  INFO (global.Log.endTestCase(Log.java:15)) - ***************************************************************************************
 #
@@ -882,3 +883,6 @@ Expected condition failed: waiting for visibility of element located by By.name:
 #
 #
 08 Oct. 2021 22:49:19 19669  INFO (utils.Log.logInfo(Log.java:19)) - Quitting webdriver
+=======
+test
+>>>>>>> branch 'main' of https://github.com/aadithyapk/SeleniumDemo.git
