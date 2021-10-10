@@ -16,9 +16,10 @@
  	<aspectjweaver.version>1.9.6</aspectjweaver.version>
  	<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
  	<poi.version>4.1.2</poi.version>
- 	<poi-ooxml-schemas>4.1.2</poi-ooxml-schemas>
+ 	<poi-ooxml-schemas.version>4.1.2</poi-ooxml-schemas.version>
  	<commons-configuration2.version>2.7</commons-configuration2.version>
  	<commons-beanutils.version>1.9.4</commons-beanutils.version>
+ 	<appium-java-client.version>7.5.1</appium-java-client.version>
  </properties>
  
   <build>
@@ -124,7 +125,7 @@
 	<dependency>
 	    <groupId>org.apache.poi</groupId>
 	    <artifactId>poi-ooxml-schemas</artifactId>
-	    <version>${poi-ooxml-schemas}</version>
+	    <version>${poi-ooxml-schemas.version}</version>
 	</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-configuration2 -->
@@ -141,5 +142,12 @@
 	    <version>${commons-beanutils.version}</version>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+	<dependency>
+	    <groupId>io.appium</groupId>
+	    <artifactId>java-client</artifactId>
+	    <version>${appium-java-client.version}</version>
+	</dependency>
+
   </dependencies>
 </project>

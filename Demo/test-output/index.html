@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\aadit\AppData\Local\Temp\testng-eclipse--123585173\testng-customsuite.xml</span>
+                    <span>C:\Users\aadit\AppData\Local\Temp\testng-eclipse-1084619656\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.NewTest" class="method navigator-link" hash-for-method="TC001_sampleTest(mngr332130, EdAbAda)">TC001_sampleTest(mngr332130, EdAbAda)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="appiumtests.AppiumAndroidTests" class="method navigator-link" hash-for-method="sampleTest">sampleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,15 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.NewTest</span>
+              <span class="class-name">appiumtests.AppiumAndroidTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC001_sampleTest(mngr332130, EdAbAda)">
-                  </a> <!-- TC001_sampleTest(mngr332130, EdAbAda) -->
-                  <span class="method-name">TC001_sampleTest</span>
-                  <span class="parameters">(mngr332130, EdAbAda)</span>
+                  <a name="sampleTest">
+                  </a> <!-- sampleTest -->
+                  <span class="method-name">sampleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -138,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\aadit\AppData\Local\Temp\testng-eclipse--123585173\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\aadit\AppData\Local\Temp\testng-eclipse-1084619656\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,7 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.NewTest&quot;/&gt;
+      &lt;class name=&quot;appiumtests.AppiumAndroidTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;sampleTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- appiumtests.AppiumAndroidTests --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,14 +192,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC001_sampleTest')
-data.setCell(0, 2, 'tests.NewTest')
-data.setCell(0, 3, 2957);
+data.setCell(0, 1, 'sampleTest')
+data.setCell(0, 2, 'appiumtests.AppiumAndroidTests')
+data.setCell(0, 3, 1223);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -222,23 +225,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.NewTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setupTests(org.testng.TestRunner@646ddc20)</span>
+              <div class="chronological-class-name">appiumtests.AppiumAndroidTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">globalSetup</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTests</span>
+                <span class="method-start">2656 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-method before">
-                <span class="method-name">getMethodName(public void tests.NewTest.TC001_sampleTest(java.lang.String,java.lang.String))</span>
-                <span class="method-start">6300 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC001_sampleTest(mngr332130, EdAbAda)</span>
-                <span class="method-start">6454 ms</span>
+                <span class="method-name">sampleTest</span>
+                <span class="method-start">11506 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">teardownTests</span>
-                <span class="method-start">9466 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13587 ms</span>
               </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">globalTearDown</span>
+                <span class="method-start">13939 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.NewTest">
+      <class name="appiumtests.AppiumAndroidTests">
         <methods>
-          <include name="teardownTests"/>
-          <include name="TC001_sampleTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
           <include name="setupTests"/>
-          <include name="getMethodName"/>
+          <include name="sampleTest"/>
+          <include name="globalTearDown"/>
+          <include name="globalSetup"/>
         </methods>
-      </class> <!-- tests.NewTest -->
+      </class> <!-- appiumtests.AppiumAndroidTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
