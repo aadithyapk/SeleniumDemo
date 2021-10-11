@@ -34,11 +34,13 @@ public class TestListeners implements ITestListener {
     	driver = (WebDriver) context.getAttribute("WebDriver");
     	webActions = new WebActions(driver);
     	webActions.takeScreenshot();
+    	Log.logError("Test case failed");
     	Log.endTestCase();
     }		
 
     @Override		
     public void onTestSkipped(ITestResult result){
+    	Log.logWarning("Test case skipped");
     	Log.endTestCase();
     }
     		
@@ -49,6 +51,7 @@ public class TestListeners implements ITestListener {
    	
     @Override		
     public void onTestSuccess(ITestResult result){
+    	Log.logInfo("Test case passed");
     	Log.endTestCase();
     }
 

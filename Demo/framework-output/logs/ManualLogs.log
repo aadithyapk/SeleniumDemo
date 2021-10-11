@@ -1,35 +1,21 @@
-08 Oct. 2021 22:33:07  INFO - *******************************	TC001_sampleTest		*******************************
-08 Oct. 2021 22:33:07  INFO - ***************************************************************************************
+10 Oct. 2021 22:56:37  INFO - Starting web driver
+10 Oct. 2021 22:56:39  INFO - Excel was to set to file at path - ./src/test/resources//datasheets/TestData.xlsx with sheet - Login
+10 Oct. 2021 22:56:39  INFO - Excel was to set to file at path - ./src/test/resources//datasheets/TestData.xlsx with sheet - Login
+10 Oct. 2021 22:56:39  INFO - Table array was successfully fetched from excel sheet - Login at path - ./src/test/resources//datasheets/TestData.xlsx
+10 Oct. 2021 22:56:39  INFO - *******************************	TC001_sampleTest	*******************************
+10 Oct. 2021 22:56:41  INFO - Launching URL 'http://demo.guru99.com/v4/'
+10 Oct. 2021 22:56:41  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
+10 Oct. 2021 22:56:41  INFO - String - mngr358536 was sent to element identified By.name: uid
+10 Oct. 2021 22:56:41  INFO - String - yharAnA was sent to element identified By.name: password
+10 Oct. 2021 22:56:42  INFO - Element identified By.name: btnLogin was clicked
+10 Oct. 2021 22:56:42  INFO - Actual title 'Guru99 Bank Manager HomePage' matches with expected title 'Guru99 Bank Manager HomePage'
+10 Oct. 2021 22:56:42  INFO - Test case passed
+10 Oct. 2021 22:56:42  INFO - ***************************************************************************************
 #
-#
-#
-08 Oct. 2021 22:37:00  INFO - Starting web driver
-08 Oct. 2021 22:37:01  INFO - *******************************	TC001_sampleTest		*******************************
-08 Oct. 2021 22:37:03  INFO - Launching URL 'http://demo.guru99.com/v4/'
-08 Oct. 2021 22:37:04  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
-08 Oct. 2021 22:37:04  INFO - String - mngr332130 was sent to element identified By.name: uid
-08 Oct. 2021 22:37:05  INFO - String - EdAbAda was sent to element identified By.name: password
-08 Oct. 2021 22:37:06  INFO - Element identified By.name: btnLogin was clicked
-08 Oct. 2021 22:37:07  INFO - ***************************************************************************************
-#
-#
-#
-08 Oct. 2021 22:37:09  INFO - Quitting webdriver
-08 Oct. 2021 22:46:19  INFO - Starting web driver
-08 Oct. 2021 22:46:21  INFO - ***************************************************************************************
-#
-#
-#
-08 Oct. 2021 22:46:24  INFO - Quitting webdriver
-08 Oct. 2021 22:49:09  INFO - Starting web driver
-08 Oct. 2021 22:49:12  INFO - *******************************	TC001_sampleTest		*******************************
-08 Oct. 2021 22:49:13  INFO - Launching URL 'http://demo.guru99.com/v4/'
-08 Oct. 2021 22:49:13  INFO - Actual title 'Guru99 Bank Home Page' matches with expected title 'Guru99 Bank Home Page'
-08 Oct. 2021 22:49:14  INFO - String - mngr332130 was sent to element identified By.name: uid
-08 Oct. 2021 22:49:15  INFO - String - EdAbAda was sent to element identified By.name: password
-08 Oct. 2021 22:49:16  INFO - Element identified By.name: btnLogin was clicked
-08 Oct. 2021 22:49:17  INFO - ***************************************************************************************
-#
-#
-#
-08 Oct. 2021 22:49:19  INFO - Quitting webdriver
+10 Oct. 2021 22:56:43  INFO - Quitting webdriver
+10 Oct. 2021 22:56:43  INFO - Executed command - [cmd.exe, /c, allure, serve, C:\Users\aadit\git\SeleniumDemo\Demo./framework-output/allure-results/]
+10 Oct. 2021 22:56:43  INFO - Start output from terminal
+10 Oct. 2021 22:56:44  INFO - Generating report to temp directory...
+10 Oct. 2021 22:56:47  INFO - Report successfully generated to C:\Users\aadit\AppData\Local\Temp\6921269072734394092\allure-report
+10 Oct. 2021 22:56:47  INFO - Starting web server...
+10 Oct. 2021 22:56:48  INFO - Server started at <http://192.168.0.38:58926/>. Press <Ctrl+C> to exit

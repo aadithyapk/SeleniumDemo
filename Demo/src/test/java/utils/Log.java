@@ -10,10 +10,10 @@ public class Log {
 	public static Logger log = LogManager.getLogger("manualLogger");
 	
 	public static void startTestCase(String strTestCaseName) {
-		log.info("*******************************\t"+strTestCaseName+"\t\t*******************************");
+		log.info("*******************************\t"+strTestCaseName+"\t*******************************");
 	}
 	public static void endTestCase() {
-		log.info("***************************************************************************************\n#\n#\n#");
+		log.info("***************************************************************************************\n#");
 	}
 	public static void logInfo(String message) {
 		log.log(Level.INFO, message);

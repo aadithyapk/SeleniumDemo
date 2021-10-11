@@ -16,7 +16,6 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.*;
-import utils.ExcelUtils;
 import utils.FrameworkUtils;
 import utils.Log;
 
@@ -67,15 +66,7 @@ public class WebDriverTestCases {
 
 	@DataProvider(name="LoginCredentials")
     public Object[][] loginDataProvider() {
-		Object[][] testObjArray;
-		//testObjArray = new Object[][] {	{ "mngr332130", "EdAbAda" } };
-		String strFilePath, strSheetName;
-		int intTestCaseRow;
-		strFilePath = FrameworkUtils.getTestProperty("testdata.path");
-		strSheetName = "Login";
-		ExcelUtils.setExcelFile(strFilePath, strSheetName);
-		intTestCaseRow = ExcelUtils.getRowContains(strTestCaseName,0);
-		testObjArray = ExcelUtils.getTableArray(strFilePath,strSheetName,intTestCaseRow);
-	    return testObjArray;
-	}	
+		return FrameworkUtils.readTestData("Login",strTestCaseName);
+	}
+
 }
